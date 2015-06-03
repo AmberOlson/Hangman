@@ -1,0 +1,48 @@
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background: linear-gradient(to right, red, pink,  violet, purple);
+}
+
+#backdrop {
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  display: inline;
+}
+
+#wordDisplay {
+  margin-left: 450px;
+  margin-top: 20px;
+}
+
+div {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.invalid{
+  display: none;
+}

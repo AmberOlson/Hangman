@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title> HangMan </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <canvas id="myCanvas" width="450" height="450" style="border:1px solid #000000;"></canvas>
+    <section>
+
+      <div id="player1">
+        <label for="word"> Word to be guessed: </label>
+        <input type = "text" id="word" name="word">
+        <button class="invalid"> Enter </button>
+      </div>
+
+      <div id="wordDisplay"></div>
+
+      <div id="player2">
+        <label for="player"> Guess: </label>
+        <input type="text" id="playerLetter" maxlength="1" name="player"/>
+        <button class="invalid"> Enter </button>
+      </div>
+
+      <div id="letterList">
+        <ul>
+          <li> Used letters: </li>
+        </ul>
+      </div>
+
+      <div id="win">
+        <p>You Win</p>
+      </div>
+
+      <div id="lose">
+        <p>You Lose</p>
+      </div>
+
+    </section>
+    <div id="backdrop" class="hide">
+      <p> Turn to players </p>
+      <button> Play</button>
+    </div>
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src = "game.js"></script>
+  </body>
+</html>
